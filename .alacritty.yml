@@ -1,0 +1,27 @@
+import:
+  - ~/aura-theme.yml
+font:
+  normal:
+    family: JetBrains Mono
+    style: Regular
+
+  bold:
+    family: JetBrains Mono
+    style: Bold
+
+  italic:
+    family: JetBrains Mono
+    style: Italic
+
+  bold_italic:
+    family: JetBrains Mono
+    style: Bold Italic
+
+key_bindings:
+  - { key: Return, mods: Control, action: ToggleFullscreen }
+  - { key: N, mods: Control, action: SpawnNewInstance }
+  - { key: Q, mods: Control, action: Quit }
+mouse_bindings:
+  - { mouse: Middle, action: CopySelection }
+mouse:
+  hide_when_typing: true
