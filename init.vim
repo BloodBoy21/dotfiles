@@ -228,7 +228,7 @@ set number
 let no_buffers_menu=1
 colorscheme gruvbox
 
-" Better command line completion 
+" Better command line completion
 set wildmenu
 
 " mouse support
@@ -253,7 +253,7 @@ else
   let g:indentLine_char = '┆'
   let g:indentLine_faster = 1
 
-  
+
   if $COLORTERM == 'gnome-terminal'
     set term=gnome-256color
   else
@@ -261,7 +261,7 @@ else
       set term=xterm-256color
     endif
   endif
-  
+
 endif
 
 
@@ -842,7 +842,7 @@ nnoremap <C-s> :w<CR>
 " Alternative way to quit
 nnoremap <C-M> :wq<CR>
 
-"LanguageClient 
+"LanguageClient
 " Required for operations modifying multiple buffers like rename.
 set hidden
 
